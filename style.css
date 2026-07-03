@@ -79,15 +79,15 @@ body {
 .profile-container {
     display: flex;
     align-items: flex-start;
-    gap: 40px;
+    gap: 30px;
     margin-bottom: 40px;
     padding-bottom: 40px;
     border-bottom: 2px solid #e0e0e0;
 }
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -378,8 +378,8 @@ a:hover {
     }
 
     .profile-photo {
-        width: 130px;
-        height: 130px;
+        width: 100px;
+        height: 100px;
     }
 
     .nav-container {
