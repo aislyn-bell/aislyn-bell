@@ -16,13 +16,13 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.95);
     min-height: calc(100vh - 140px);
 }
 
 /* Navigation Bar */
 .navbar {
-    background-color: #FCCF6;
+    background-color: rgba(102, 126, 234, 0.9);
     padding: 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
@@ -40,7 +40,7 @@ body {
 }
 
 .nav-brand {
-    color: #333333;
+    color: #ffffff;
     text-decoration: none;
     font-size: 1.3em;
     font-weight: bold;
@@ -59,7 +59,7 @@ body {
 }
 
 .nav-menu a {
-    color: #333333;
+    color: #ffffff;
     text-decoration: none;
     padding: 20px 15px;
     display: block;
@@ -68,7 +68,7 @@ body {
 
 .nav-menu a:hover,
 .nav-menu a.active {
-    background-color: #fab5d5;
+    background-color: rgba(118, 75, 162, 0.9);
 }
 
 /* Home Page Styles */
@@ -121,15 +121,15 @@ body {
     margin-right: 15px;
     margin-bottom: 10px;
     padding: 8px 16px;
-    background-color: #FCCF6;
-    color: #333333;
+    background-color: rgba(102, 126, 234, 0.85);
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .contact-links a:hover {
-    background-color: #fab5d5;
+    background-color: rgba(118, 75, 162, 0.85);
 }
 
 .about-section,
@@ -150,14 +150,14 @@ body {
 .news-list li {
     padding: 12px;
     margin-bottom: 10px;
-    background-color: #f8f9fa;
-    border-left: 4px solid #FCCF6;
+    background-color: rgba(248, 249, 250, 0.9);
+    border-left: 4px solid rgba(102, 126, 234, 0.8);
 }
 
 /* Headings */
 h1 {
     color: #333;
-    border-bottom: 3px solid #FCCF6;
+    border-bottom: 3px solid rgba(102, 126, 234, 0.8);
     padding-bottom: 15px;
     margin-bottom: 30px;
     font-size: 2.5em;
@@ -185,12 +185,12 @@ h3 {
 .project {
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: rgba(248, 249, 250, 0.9);
     border-radius: 5px;
 }
 
 .project h3 {
-    color: #FCCF6;
+    color: rgba(102, 126, 234, 1);
 }
 
 .research-interests ul {
@@ -210,8 +210,8 @@ h3 {
 .publication {
     margin-bottom: 25px;
     padding: 15px;
-    background-color: #f8f9fa;
-    border-left: 4px solid #FCCF6;
+    background-color: rgba(248, 249, 250, 0.9);
+    border-left: 4px solid rgba(102, 126, 234, 0.8);
 }
 
 .pub-authors {
@@ -231,7 +231,7 @@ h3 {
 
 .pub-links a {
     margin-right: 15px;
-    color: #FCCF6;
+    color: rgba(102, 126, 234, 1);
     text-decoration: none;
 }
 
@@ -248,8 +248,8 @@ h3 {
 .download-button {
     display: inline-block;
     padding: 12px 30px;
-    background-color: #FCCF6;
-    color: #333333;
+    background-color: rgba(102, 126, 234, 0.85);
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -257,7 +257,7 @@ h3 {
 }
 
 .download-button:hover {
-    background-color: #fab5d5;
+    background-color: rgba(118, 75, 162, 0.85);
 }
 
 .cv-section {
@@ -304,20 +304,20 @@ h3 {
 /* Teaching & Outreach Page */
 .section-divider {
     height: 3px;
-    background: linear-gradient(to right, #FCCF6, #fab5d5, #FCCF6);
+    background: linear-gradient(to right, rgba(102, 126, 234, 0.6), rgba(118, 75, 162, 0.6), rgba(102, 126, 234, 0.6));
     margin: 60px 0 40px 0;
     border-radius: 2px;
 }
 
 .teaching-philosophy {
-    background-color: #fef5fa;
+    background-color: rgba(232, 234, 246, 0.4);
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 40px;
 }
 
 .outreach-overview {
-    background-color: #fff3cd;
+    background-color: rgba(255, 243, 205, 0.4);
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 40px;
@@ -353,8 +353,8 @@ h3 {
 
 /* Footer */
 footer {
-    background-color: #FCCF6;
-    color: #333333;
+    background-color: rgba(102, 126, 234, 0.9);
+    color: #ffffff;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
@@ -362,11 +362,11 @@ footer {
 
 /* Links */
 a {
-    color: #FCCF6;
+    color: rgba(102, 126, 234, 1);
 }
 
 a:hover {
-    color: #fab5d5;
+    color: rgba(118, 75, 162, 1);
 }
 
 /* Responsive Design */
