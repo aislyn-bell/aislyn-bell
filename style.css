@@ -100,7 +100,7 @@ body {
 
 .profile-info h1 {
     font-size: 2.5em;
-    color: #2c3e50;
+    color: #333;
     margin-bottom: 10px;
     border: none;
     padding: 0;
@@ -121,15 +121,15 @@ body {
     margin-right: 15px;
     margin-bottom: 10px;
     padding: 8px 16px;
-    background-color: #3498db;
-    color: white;
+    background-color: #FCCF6;
+    color: #333333;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .contact-links a:hover {
-    background-color: #2980b9;
+    background-color: #fab5d5;
 }
 
 .about-section,
@@ -151,27 +151,27 @@ body {
     padding: 12px;
     margin-bottom: 10px;
     background-color: #f8f9fa;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #FCCF6;
 }
 
 /* Headings */
 h1 {
-    color: #2c3e50;
-    border-bottom: 3px solid #3498db;
+    color: #333;
+    border-bottom: 3px solid #FCCF6;
     padding-bottom: 15px;
     margin-bottom: 30px;
     font-size: 2.5em;
 }
 
 h2 {
-    color: #2c3e50;
+    color: #333;
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 1.8em;
 }
 
 h3 {
-    color: #34495e;
+    color: #555;
     margin-bottom: 10px;
 }
 
@@ -190,7 +190,7 @@ h3 {
 }
 
 .project h3 {
-    color: #3498db;
+    color: #FCCF6;
 }
 
 .research-interests ul {
@@ -211,7 +211,7 @@ h3 {
     margin-bottom: 25px;
     padding: 15px;
     background-color: #f8f9fa;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #FCCF6;
 }
 
 .pub-authors {
@@ -221,7 +221,7 @@ h3 {
 .pub-title {
     font-size: 1.1em;
     margin-bottom: 5px;
-    color: #2c3e50;
+    color: #333;
 }
 
 .pub-venue {
@@ -231,7 +231,7 @@ h3 {
 
 .pub-links a {
     margin-right: 15px;
-    color: #3498db;
+    color: #FCCF6;
     text-decoration: none;
 }
 
@@ -248,8 +248,8 @@ h3 {
 .download-button {
     display: inline-block;
     padding: 12px 30px;
-    background-color: #27ae60;
-    color: white;
+    background-color: #FCCF6;
+    color: #333333;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -257,7 +257,7 @@ h3 {
 }
 
 .download-button:hover {
-    background-color: #229954;
+    background-color: #fab5d5;
 }
 
 .cv-section {
@@ -304,13 +304,13 @@ h3 {
 /* Teaching & Outreach Page */
 .section-divider {
     height: 3px;
-    background: linear-gradient(to right, #3498db, #e74c3c);
+    background: linear-gradient(to right, #FCCF6, #fab5d5, #FCCF6);
     margin: 60px 0 40px 0;
     border-radius: 2px;
 }
 
 .teaching-philosophy {
-    background-color: #e8f4f8;
+    background-color: #fef5fa;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 40px;
@@ -362,11 +362,11 @@ footer {
 
 /* Links */
 a {
-    color: #3498db;
+    color: #FCCF6;
 }
 
 a:hover {
-    color: #2980b9;
+    color: #fab5d5;
 }
 
 /* Responsive Design */
